@@ -28,16 +28,16 @@ const handleNav = () => {
     <navbar className="navbar">
        <div className="container navbar__Container">
         <div className="logo">
-            c
-            <span>v</span>
+            Port
+            <span>folio</span>
         </div>
         <div className="nav__link">
             <ul>
                 <li  ><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <div className='i' onClick={ handleNav}> 
